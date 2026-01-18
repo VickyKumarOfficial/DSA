@@ -1,6 +1,5 @@
 // https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/AVGPROBLEM?tab=statement
 
-import java.util.*;
 import java.util.Scanner;
 class Greater_Average {
     public static void main(String[] args) {
@@ -13,5 +12,6 @@ class Greater_Average {
 
             t--;
         }
+        sc.close();
     }
 }

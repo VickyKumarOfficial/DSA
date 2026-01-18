@@ -13,5 +13,6 @@ class Janmansh_and_Assignments {
 
             t--;
         }
+        sc.close();
     }    
 }

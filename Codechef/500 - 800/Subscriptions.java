@@ -1,6 +1,5 @@
 // https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/SUBSCRIBE_
 
-import java.util.*;
 import java.util.Scanner;
 class Subscriptions {
     public static void main(String[] args) {
@@ -13,5 +12,6 @@ class Subscriptions {
 
             t--;
         }
+        sc.close();
     }
 }

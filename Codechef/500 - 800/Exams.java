@@ -1,6 +1,5 @@
 // https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/EXAMCHEF
 
-import java.util.*;
 import java.util.Scanner;
 
 class Exams {
@@ -15,6 +14,6 @@ class Exams {
 
             t--;
         }
-
+        sc.close();
     }
 }
