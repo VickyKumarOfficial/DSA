@@ -119,7 +119,7 @@ void pattern8(int n) {
     }
     
     // Lower half
-    for(int i = 0; i < n; i++) {
+    for(int i = 1; i < n; i++) {
         for(int j = 0; j < i; j++) cout << " ";
         for(int k = ((2*n) - ((2*i)+1)); k > 0; k--) cout << "*";
         for(int l = 0; l < i; l++) cout << " ";
@@ -140,7 +140,16 @@ void pattern8(int n) {
 }
 
 void pattern9(int n) {
-    
+    // Upper Half
+    for(int i = 0; i < n; i++) {
+        for(int j = 0; j <= i; j++) cout << "* ";
+        cout << "\n";
+    }
+    // Lower Half
+    for(int i = n-1; i > 0; i--) {
+        for(int j = i; j > 0; j--) cout << "* ";
+        cout << "\n";
+    }
 
 /*
     * 
@@ -168,8 +177,9 @@ int main() {
     pattern6(n);
     pattern7(n);
     pattern8(n);
-*/
     pattern9(n);
+*/
+    pattern10(n);
     return 0;
 }
 
