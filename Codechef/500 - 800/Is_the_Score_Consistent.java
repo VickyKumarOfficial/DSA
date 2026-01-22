@@ -1,3 +1,5 @@
+// https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/THREETOPICS
+
 import java.util.Scanner;
 
 class Is_the_Score_Consistent {
