@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 class Reverse_The_Number {
-       public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
 		while(t--> 0) {
@@ -18,5 +18,5 @@ class Reverse_The_Number {
 		}
 		
 		sc.close();
-       }
+    }
 }
