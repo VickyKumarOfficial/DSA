@@ -1,3 +1,5 @@
+// https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/SEATNUMBER
+
 import java.util.Scanner;
 
 public class Bus_Seat_Numbering {

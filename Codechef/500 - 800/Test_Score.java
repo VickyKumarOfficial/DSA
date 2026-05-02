@@ -1,3 +1,5 @@
+// https://www.codechef.com/practice/course/logical-problems/DIFF800/problems/CHEFSCORE
+
 import java.util.Scanner;
 
 public class Test_Score {
