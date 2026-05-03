@@ -9,12 +9,10 @@ public class Maximise_the_Tastiness {
 		while(t--> 0) {
 		    int a = sc.nextInt(), b = sc.nextInt(), c = sc.nextInt(), d = sc.nextInt();
 		    int fl, sl;
-		    if(a > b) {
-		        fl = a;
-		    } else fl = b;
-		    if(c > d) {
-		        sl = c;
-		    } else sl = d;
+		    if(a > b) fl = a;
+		    else fl = b;
+		    if(c > d) sl = c;
+			else sl = d;
 		    System.out.println(fl + sl);
 		}
         sc.close();
