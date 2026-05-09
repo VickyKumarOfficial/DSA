@@ -8,7 +8,6 @@ public class It_Is_My_Serve{
 		int t = sc.nextInt();
 		while(t--> 0) {
 		    int p = sc.nextInt(), q = sc.nextInt();
-		    int sum = p+q;
 		    if((p+q+1)<2) System.out.println("Alice");
 		    else {
 		        if((((p+q+1)%4)==1)||(((p+q+1)%4)==2)) System.out.println("Alice");
