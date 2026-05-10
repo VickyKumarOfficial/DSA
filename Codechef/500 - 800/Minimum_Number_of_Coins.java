@@ -7,7 +7,7 @@ public class Minimum_Number_of_Coins {
         Scanner sc = new Scanner(System.in);
 		int t = sc.nextInt();
 		while(t--> 0) {
-		    int n = sc.nextInt(), x = 0;
+		    int n = sc.nextInt();
 		    if(n%5 != 0) System.out.println(-1);
 		    else {
 		        int ans = (n/10) + ((n%10)/5);
